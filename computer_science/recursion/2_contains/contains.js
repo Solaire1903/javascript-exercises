@@ -1,13 +1,11 @@
 const contains = function (checkedObject, checkedValue) {
   if (Number.isNaN(checkedValue)) return true;
-  
+
   if (
     typeof checkedObject !== "object" ||
     Array.isArray(checkedObject) ||
     checkedObject === null
   ) {
-    
-
     const value = checkedObject;
     return value === checkedValue;
   }
