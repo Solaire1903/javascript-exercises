@@ -1,4 +1,8 @@
-const permutations = function() {
+const permutations = function(array) {
+  //Base Case
+  if (array.length <= 2) return [array];
+
+  //Recursive Case
   
 };
   
