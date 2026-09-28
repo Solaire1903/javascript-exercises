@@ -31,7 +31,7 @@ describe("permutations", () => {
     );
   });
 
-  test.skip("24 possible permutations for a set containing 4 numbers", () => {
+  test("24 possible permutations for a set containing 4 numbers", () => {
     expect(permutations([1, 2, 3, 4]).sort()).toEqual(
       [
         [1, 2, 3, 4],
